@@ -1,5 +1,9 @@
 # String can be sliced
 
+# name of variables (Strings) usually start with small letters rather than capital. Names of classes start with capital letters.
+
+#Strings are immutable; means that original string remains same as previous one. The string we get after applying string functions is a new string. Like, name.replace("S","s"); this will create a new string but don't cause any change in original string.
+
 str_1 = "Sadaan"
 str_2 = "Siddique"
 # If we start to count from start, then index starts from 0 i.e 0, 1, 2, 3, 4, 5. If we count from end, then index is -1, -2, -3, -4, -5, -6
