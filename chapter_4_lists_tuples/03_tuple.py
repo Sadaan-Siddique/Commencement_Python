@@ -17,7 +17,7 @@ my_list = ["apple", "banana", "orange"]
 print(type(coordinates))
 print(type(my_list))
 
-mix_tuple = (1,2,false,true,"hello",1.2)
+mix_tuple = (1,2, False, True, "hello", 1.2)
 print(type(mix_tuple))
 
 a=() # Empty Tuple
@@ -27,3 +27,7 @@ print(type(a))
 a = (1,) # this initialization will make ' a ' a tuple whose stored value is 1
 print(type(a))
 
+
+# Unpacking: Tuples can be unpacked into individual variables
+a, b, c = my_tuple
+print(a, b, c)
