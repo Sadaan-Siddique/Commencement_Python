@@ -1,0 +1,2 @@
+# a set is an unordered collection of unique, immutable elements. This means that sets automatically discard duplicate values and do not maintain any specific order, so you cannot access elements using an index
+s = {} # will create an empty dictionary not set
